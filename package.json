@@ -1,0 +1,20 @@
+{
+  "name": "spe-uniben-election",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.16.0",
+    "bcrypt": "^5.1.0",
+    "cookie": "^0.5.0",
+    "jsonwebtoken": "^9.0.0",
+    "next": "14.0.0",
+    "nodemailer": "^6.9.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
